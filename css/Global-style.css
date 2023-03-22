@@ -1,0 +1,178 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --primary-color: #00b3cb;
+  --width: 1430px;
+}
+
+body,
+html {
+  font-size: 16px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "UTM-AvoBold";
+}
+
+p,
+a {
+  font-family: "UTM-Avo";
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+button,
+input {
+  font-family: "Comfortaa-Bold";
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: 0;
+}
+
+.container {
+  max-width: var(--width);
+  margin: 0 auto;
+}
+
+address {
+  font-size: 16px;
+  font-family: "UTM-Avo";
+  font-style: normal;
+}
+
+.title-content {
+  position: relative;
+}
+
+.title-content h2 {
+  font-size: 45px;
+  font-family: UTM-Avo;
+  color: #232323;
+}
+
+.title-content h2 span {
+  font-size: 45px;
+  font-family: UTM-AvoBold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.title-content h3 {
+  font-size: 30px;
+  font-family: UTM-AvoBold;
+  color: #232323;
+  padding: 28px 0;
+}
+
+.title-content::after {
+  content: "";
+  width: 240px;
+  height: 5px;
+  background-color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#banner-page {
+  background-image: url("../imgs/banner-page-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-page-container {
+  padding: 60px 20px 44px 20px;
+  color: var(--white-color);
+}
+
+.banner-page-container h1 {
+  color: var(--white-color);
+  font-size: 35px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.banner-page-container p,
+.banner-page-container p a {
+  color: var(--white-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.banner-page-container p a:last-child {
+  font-family: UTM-AvoBold;
+}
+
+.chitiet {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "UTM-AvoBold";
+  font-size: 16px;
+}
+
+.next-group {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.next-group li a {
+  display: block;
+  padding: 10px 16px;
+}
+
+.title-page h2 {
+  width: fit-content;
+  font-size: 40px;
+  padding-bottom: 16px;
+  border-bottom: 5px solid var(--primary-color);
+  margin-bottom: 42px;
+  font-family: "UTM-Avo";
+  position: relative;
+}
+
+.title-page h2::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #f6f6f6;
+  position: absolute;
+  bottom: -8px;
+  left: 50px;
+}
+
+.title-page h2 span {
+  color: var(--primary-color);
+  font-family: "UTM-AvoBold";
+  text-transform: uppercase;
+}

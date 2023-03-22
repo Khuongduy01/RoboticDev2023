@@ -1,0 +1,68 @@
+#partner {
+  background-image: url("../imgs/doitac-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 64px 0 56px 0;
+}
+
+.partner-container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 90px;
+}
+
+.partner-container h2 {
+  font-size: 40px;
+  font-family: UTM-Avo;
+}
+
+.partner-container h2 span {
+  font-family: UTM-AvoBold;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.partner-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.partner-container ul li a {
+  display: block;
+  color: #b0b0b0;
+  padding: 44px;
+  font-size: 40px;
+  line-height: 50px;
+  background-color: var(--white-color);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .partner-container {
+    flex-direction: row;
+  }
+  .partner-container ul {
+    justify-content: start;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .partner-container ul {
+    justify-content: space-between;
+  }
+}

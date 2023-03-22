@@ -1,0 +1,37 @@
+#banner {
+  background-image: url("../imgs/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.banner-container h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.banner-container h1 span {
+  font-size: 26px;
+}
+
+.banner-container a {
+  width: fit-content;
+  background-color: #ff5253;
+  font-size: 20px;
+  font-family: "UTM-Avo";
+  padding: 12px 50px;
+  color: var(--white-color);
+  border-radius: 5px;
+}

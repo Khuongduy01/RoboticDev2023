@@ -1,0 +1,70 @@
+#training {
+  background-image: url("../imgs/training-field-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.training-container {
+  padding: 100px 20px;
+}
+
+.training-content {
+  margin-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.training-item {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.training-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.training-item div {
+  padding: 32px 20px;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.training-item div h4 {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.training-item div p {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.training-item div a {
+  align-self: flex-end;
+  border: 1px solid var(--white-color);
+  line-height: 35px;
+  color: var(--white-color);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.training-content .training-item:nth-child(1) div {
+  background-color: #ff5253;
+}
+
+.training-content .training-item:nth-child(2) div {
+  background-color: #28c690;
+}
+
+.training-content .training-item:nth-child(3) div {
+  background-color: #00b3cb;
+}

@@ -1,0 +1,132 @@
+#product {
+  background-image: url("../imgs/product-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0 100px 0;
+}
+
+.product-title {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.product-title h2 {
+  display: block;
+  color: var(--black-color);
+  font-family: UTM-Avo;
+  font-size: 45px;
+}
+
+.product-title h2 span {
+  font-family: UTM-AvoBold;
+  text-transform: uppercase;
+}
+
+.product-title p {
+  max-width: 840px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.product-content ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-content ul li {
+  width: 100%;
+  position: relative;
+}
+
+.product-content ul li {
+  width: 100%;
+  position: relative;
+}
+
+.product-content ul li:hover .product-img-hover {
+  opacity: 1;
+}
+
+.product-img-hover {
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+  transition: opacity 0.5s;
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 24px;
+  left: 24px;
+  padding: 0 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img-hover p:first-child {
+  font-size: 25px;
+}
+
+.product-img-hover p:nth-child(2) {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.product-img-hover a {
+  border: 1px solid var(--black-color);
+  line-height: 35px;
+  color: var(--black-color);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.product-content ul li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-content .product-btn {
+  margin-top: 50px;
+  padding: 18px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Comfortaa-Bold;
+  text-transform: uppercase;
+  border: 1px solid var(--black-color);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .product-content ul li {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .product-content ul li {
+    width: 25%;
+  }
+}

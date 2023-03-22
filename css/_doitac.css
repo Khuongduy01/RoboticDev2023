@@ -1,0 +1,66 @@
+#doitac {
+  background-color: #f6f6f6;
+}
+
+.doitac-container {
+  padding: 96px 20px 86px 20px;
+}
+
+.doitac-content1 {
+  margin-top: 100px;
+}
+
+.doitac-tt {
+  display: flex;
+  align-items: center;
+  margin: 44px 0;
+}
+
+.doitac-tt h3 {
+  padding: 24px 40px;
+  width: fit-content;
+  font-size: 30px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.doitac-tt span {
+  height: 56px;
+  flex: 1;
+  background-color: #b4e4eb;
+}
+
+.doitac-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px 24px;
+}
+
+.doitac-list li img {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .doitac-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .doitac-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .doitac-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

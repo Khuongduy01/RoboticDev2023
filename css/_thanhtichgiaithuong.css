@@ -1,0 +1,76 @@
+#ttgt {
+  background-color: #f6f6f6;
+}
+
+.ttgt-container {
+  padding: 96px 20px 40px 20px;
+}
+
+.ttgt-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.ttgt-list {
+  margin: 36px 0 58px 0;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr;
+  gap: 60px 30px;
+}
+
+.ttgt-list li {
+  background-color: var(--white-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bc-item-first img {
+  padding: 12px;
+  width: 100%;
+}
+
+.bc-item-first h3 {
+  padding: 0 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "UTM-Avo";
+  text-transform: uppercase;
+}
+
+.bc-item-first p {
+  margin: 24px 12px;
+  text-align: center;
+}
+
+.bc-item-last {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 6px 24px;
+  flex: 1;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .ttgt-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .ttgt-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

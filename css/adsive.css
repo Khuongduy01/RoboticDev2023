@@ -1,0 +1,115 @@
+#advise {
+  background-image: url("../imgs/Tuvan-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.advise-form h3 {
+  color: var(--white-color);
+  font-size: 20px;
+  margin-bottom: 29px;
+}
+
+.advise-container h3 span {
+  font-family: UTM-Avo;
+}
+
+.advise-container {
+  padding: 0 20px;
+}
+
+.advise-form {
+  background-color: #28c690;
+  padding: 44px 20px;
+}
+
+.advise-form ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px 20px;
+}
+
+.advise-form ul li input {
+  width: 100%;
+  padding: 24px;
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+
+.advise-form ul li input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--black-color);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--black-color);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--black-color);
+}
+
+.advise-form ul li button:not(.register) {
+  width: 100%;
+  padding: 24px;
+  text-align: start;
+  background-color: var(--white-color);
+}
+
+.register {
+  background-color: #ff5253;
+  color: var(--white-color);
+  font-family: UTM-AvoBold;
+  font-size: 20px;
+  padding: 12px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advise-content {
+  padding: 96px 0;
+}
+
+.advise-text {
+  margin: 44px 0 32px 0;
+  max-width: 700px;
+  text-align: justify;
+  line-height: 30px;
+  color: #232323;
+}
+
+.advise-content a {
+  width: fit-content;
+  background-color: #ff5253;
+  font-size: 20px;
+  font-family: "UTM-Avo";
+  padding: 12px 50px;
+  color: var(--white-color);
+  border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .advise-form {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+@media (min-width: 1400px) {
+}

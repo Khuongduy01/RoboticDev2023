@@ -1,0 +1,26 @@
+#khoahocchitiet {
+  background-color: #f6f6f6;
+}
+
+.khoahocchitiet-container {
+  padding: 94px 20px 184px 20px;
+}
+
+.khoahocchitiet-content {
+  min-height: 1500px;
+  max-width: 1050px;
+  font-size: 16px;
+}
+
+.khoahocchitiet-content p {
+  text-align: justify;
+}
+
+.khoahocchitiet-content img {
+  display: block;
+  width: 100%;
+}
+
+.khoahocchitiet-bottom {
+  margin-top: 60px;
+}
