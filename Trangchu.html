@@ -69,26 +69,26 @@
               <li><a href="./Giaovien.html">Giáo viên</a></li>
             </ul>
           </nav>
-          <button class="header-bars">
-            <i class="fa-solid fa-bars"></i>
-          </button>
-        </div>
-        <div class="header-menu">
-          <div>
-            <div class="header-search">
-              <img src="./imgs/Kinhnup.png" alt="Kinhnup" />
-              <input type="text" placeholder="Tìm kiếm" />
+          <div class="header-bars">
+            <i class="fa-solid fa-bars" onclick="handleMenu()"></i>
+            <div class="header-menu" id="dropdown">
+              <div>
+                <div class="header-search">
+                  <img src="./imgs/Kinhnup.png" alt="Kinhnup" />
+                  <input type="text" placeholder="Tìm kiếm" />
+                </div>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="./Gioithieu.html">Giới thiệu</a></li>
+                  <li><a href="./Khoahoc.html">Khóa học</a></li>
+                  <li><a href="./Khoahoconline.html">Học online</a></li>
+                  <li><a href="./Doitac.html">Hợp tác</a></li>
+                  <li><a href="./Giaovien.html">Giáo viên</a></li>
+                </ul>
+              </nav>
             </div>
           </div>
-          <nav>
-            <ul>
-              <li><a href="./Gioithieu.html">Giới thiệu</a></li>
-              <li><a href="./Khoahoc.html">Khóa học</a></li>
-              <li><a href="./Khoahoconline.html">Học online</a></li>
-              <li><a href="./Doitac.html">Hợp tác</a></li>
-              <li><a href="./Giaovien.html">Giáo viên</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
@@ -108,13 +108,29 @@
         <div class="advise-form">
           <h3><span>Bạn muốn học</span> tư vấn miễn phí ?</h3>
           <ul>
-            <li><input type="text" placeholder="Họ tên phụ huynh" /></li>
+            <li>
+              <input type="text" placeholder="Họ tên phụ huynh" />
+            </li>
             <li><input type="email" placeholder="Email" /></li>
             <li><input type="text" placeholder="Số điện thoại" /></li>
             <li><input type="text" placeholder="Họ tên học sinh" /></li>
             <li><input type="text" placeholder="dd/mm/yy" /></li>
-            <li><button>Chọn khóa học</button></li>
-            <li><button>Chọn khu vực mới nhất</button></li>
+            <li>
+              <select>
+                <option selected="">Chọn khóa học</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </li>
+            <li>
+              <select>
+                <option selected="">Chọn khu vực gần nhất</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </li>
             <li><button class="register">Đăng Kí</button></li>
           </ul>
         </div>

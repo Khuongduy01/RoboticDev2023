@@ -53,11 +53,18 @@
   color: var(--black-color);
 }
 
-.advise-form ul li button:not(.register) {
+.advise-form ul li select {
   width: 100%;
   padding: 24px;
+  border: 0;
   text-align: start;
+  outline: none;
   background-color: var(--white-color);
+  font-family: Comfortaa-Bold;
+}
+
+.advise-form ul li select option {
+  width: 100%;
 }
 
 .register {

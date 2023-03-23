@@ -1,21 +1,14 @@
-
-var btnMenu= document.querySelector('.header-bars');
-
-btnMenu.addEventListener("click", btnMenu1);
-
-function btnMenu1(e) {
-    var menu = document.querySelector('.header-menu')
-    
-    if (menu.classList.contains('open')){
-        menu.style.display = 'none';
-    } else {
+function handleMenu() {
+    var menu = document.getElementById("dropdown")
+    var menuBtn = document.querySelector('.header-bars i')
+    menu.classList.toggle("show");
+    if (menu.classList.contains('show')){
         menu.style.display = 'block'
+        menuBtn.classList.remove('fa-bars')
+        menuBtn.classList.add('fa-x')  
+    } else {
+        menu.style.display = 'none'
+        menuBtn.classList.remove('fa-x')
+        menuBtn.classList.add('fa-bars')  
     }
-    menu.classList.toggle('open')
-    this.classList.toggle('open')
 }
-
-
-
-
-
