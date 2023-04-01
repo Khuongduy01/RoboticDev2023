@@ -16,6 +16,8 @@
 
 .news-item {
   max-width: 440px;
+  display: flex;
+  flex-direction: column;
 }
 
 .news-item img {
@@ -29,7 +31,9 @@
   padding: 28px;
   background-color: #f6f6f6;
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .news-item div h4 {

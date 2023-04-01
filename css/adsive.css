@@ -43,12 +43,12 @@
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder {
+.advise-form ul li input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: var(--black-color);
 }
 
-::-ms-input-placeholder {
+.advise-form ul li input ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: var(--black-color);
 }
