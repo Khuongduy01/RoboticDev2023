@@ -74,7 +74,7 @@
   font-size: 20px;
   padding: 12px 0;
   width: 100%;
-  height: 100%;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,6 +101,31 @@
   color: var(--white-color);
   border-radius: 5px;
 }
+
+
+.form-err {
+  display: none;
+  font-size: 12px;
+  font-family: 'Comfortaa-Bold';
+  padding: 10px 24px;
+  color: red;
+}
+
+/* hidden arrows input number */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* hidden arrows input number */
 
 @media (min-width: 576px) {
 }

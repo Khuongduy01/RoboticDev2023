@@ -105,35 +105,54 @@
     <!-- advise -->
     <section id="advise">
       <div class="container advise-container">
-        <div class="advise-form">
+        <form class="advise-form" id="form1">
           <h3><span>Bạn muốn học</span> tư vấn miễn phí ?</h3>
           <ul>
             <li>
-              <input type="text" placeholder="Họ tên phụ huynh" />
+              <input
+                type="text"
+                placeholder="Họ tên phụ huynh"
+                id="parentName"
+              />
+              <p class="form-err">Bạn chưa nhập học tên phụ huynh</p>
             </li>
-            <li><input type="email" placeholder="Email" /></li>
-            <li><input type="text" placeholder="Số điện thoại" /></li>
-            <li><input type="text" placeholder="Họ tên học sinh" /></li>
-            <li><input type="text" placeholder="dd/mm/yy" /></li>
             <li>
-              <select>
-                <option selected="">Chọn khóa học</option>
+              <input type="email" placeholder="Email" id="email" />
+              <p class="form-err">Bạn chưa nhập học tên email</p>
+            </li>
+            <li>
+              <input type="number" placeholder="Số điện thoại" id="phone" />
+              <p class="form-err">Bạn chưa nhập SĐT (+84)</p>
+            </li>
+            <li>
+              <input type="text" placeholder="Họ tên học sinh" id="name" />
+              <p class="form-err">Bạn chưa nhập học tên học sinh</p>
+            </li>
+            <li>
+              <input type="date" id="date"  min="2023-01-01" max="2050-12-31" />
+              <p class="form-err">Bạn chưa chọn ngày</p>
+            </li>
+            <li>
+              <select id="courses">
+                <option value="">Chọn khóa học</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
+              <p class="form-err">Bạn chưa chọn khóa học</p>
             </li>
             <li>
-              <select>
-                <option selected="">Chọn khu vực gần nhất</option>
+              <select id="area">
+                <option value="">Chọn khu vực gần nhất</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
+              <p class="form-err">Bạn chưa chọn khu vực</p>
             </li>
-            <li><button class="register">Đăng Kí</button></li>
+            <li><button class="register" type="submit">Đăng Kí</button></li>
           </ul>
-        </div>
+        </form>
 
         <div class="advise-content">
           <div class="title-content">
@@ -430,7 +449,7 @@
               /></a>
             </li>
           </ul>
-          <p>@ CopyRight 2020 ROBOTIC</p>
+         <a href="./Profile.html"><p>@Lương Duy 2023 Cover ROBOTIC</p></a>
         </div>
       </div>
     </footer>
@@ -439,8 +458,16 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./common/bootstrap.bundle.min.js" />
-
     <!-- /bootstrap -->
+    <!-- jquery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+
     <!-- js -->
     <script src="./js/script.js"></script>
 
